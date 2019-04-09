@@ -1,0 +1,319 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI Light",sans-serif,Arial;
+    font-weight: bolder;
+    margin-right: 1px;
+}
+
+
+/*------   main header  -------*/
+
+.main-header{
+    background: white url("images/technology.JPG");
+    color: white;
+    text-align: right;
+    padding: 20px;
+    background-size: cover;
+    font-weight: normal;
+    font-family: "Segoe UI Light";
+
+}
+
+/*--------------  main nav  --------*/
+
+.main-nav{
+    background-color: black;
+    padding: 10px;
+    display: inline-block;
+    width: 100%;
+}
+.main-nav a{
+    color: white;
+    padding: 10px 30px;
+    display: inline-block;
+    text-decoration: none;
+}
+.main-nav a:hover{
+    background-color: #4285f4;
+    border-radius: 15px;
+    box-shadow: 0 0 5px 2px white;
+    color: black;
+}
+.main-nav a.active{
+    background-color: #61ce5c;
+    border-radius: 15px;
+    border: 1px solid black;
+    box-shadow: 0 0 5px 2px white;
+    color: black;
+}
+/*----------------home news section-----------*/
+
+
+.home-news-section{
+    width: 1100px;
+    margin-left: 150px;
+}
+.home-news-article{
+    width: 350px;
+    height: 500px;
+    text-align: center;
+    float: left;
+    margin-right: 12px;
+    margin-top: 5px;
+    border-radius: 15px;
+    transition: all 0.3s;
+
+}
+.home-news-article:hover{
+    box-shadow: 0 0 10px 5px black;
+    transform: perspective(500px)rotateX(15deg);
+}
+.home-news-article img{
+    width: 300px;
+}
+.home-news-text{
+    padding: 10px;
+
+}
+
+.break{
+    padding: 15px;
+    clear: both;
+}
+
+/*--------------   main news section-----------*/
+
+
+.main-news-section{
+    width: 1100px;
+    margin: auto;
+}
+.main-news-section h2{
+    text-align: center;
+    background:linear-gradient(to left,rgba(0,0,0,0.5),#ff3587,rgba(0,0,0,0.5));
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 0 0 15px 2px black ;
+}
+.zoom{
+    width: 600px;
+    height:400px;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0 0 15px black;
+    overflow: hidden;
+}
+.zoom img{
+    width: inherit;
+    height: inherit;
+    transition: all 0.5s;
+}
+.zoom img:hover{
+    transform:scale(1.2,1.2);
+}
+
+/*----------  main footer  ----*/
+
+.main-footer{
+    background: linear-gradient(to right , #788364 , black , #788364);
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+.main-footer a{
+    color: orange;
+    font-family: "Agency FB";
+    font-size: 1.2em;
+    letter-spacing: 1.2px;
+    text-decoration: overline;
+}
+
+/*------------       gallery section    --------------*/
+
+.gallery-section{
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.gallery-section div{
+    width: 300px;
+    display: inline-block;
+    margin-right: 35px;
+}
+.gallery-article{
+    border: 1px dashed black;
+    width: 300px;
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+.gallery-article:hover{
+    transform: perspective(400px)rotateY(-20deg);
+}
+.gallery-zoom{
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+
+}
+.gallery-article:hover{
+    box-shadow: 0 0 15px 4px black;
+    border: none;
+}
+.gallery-zoom img{
+    width: inherit;
+    height: inherit;
+    border-radius: 10px;
+    transition:all 1s ;
+}
+.gallery-article img:hover{
+    transform:scale(1.3,1.3);
+}
+.gallery-article figcaption{
+    padding: 10px;
+}
+
+
+/*-----------   main about section --------*/
+
+.about-section{
+    width: 1100px;
+    margin: auto;
+}
+.about-article{
+    background: url("images/betweengrassandsky3.png");
+    padding: 10px;
+    margin: 20px 10px;
+    border-radius: 50px 0 0;
+    box-shadow: 0 0 10px 3px black;
+}
+.company-images{
+    text-align: center;
+}
+.company-images img{
+    width: 250px;
+    height: 150px;
+    border-radius: 15px;
+    margin: 5px;
+    box-shadow: 0 0 15px black;
+}
+
+
+/*---------     main contact --------*/
+.main-contact{
+    background: linear-gradient(40deg,#000,#262626);
+    background-size: cover;
+    margin-top: 0;
+    padding: 0;
+    width:100%;
+    height: 800px;
+}
+
+.form-div{
+    background: linear-gradient(45deg,#fb0094,#0000ff,#00ff00,#ffff00,#fb0094,#0000ff,#00ff00);
+    width: 242px;
+    padding: 12px;
+    border-radius: 15px;
+    position: relative;
+    float:left;
+    top:50px;
+    margin-left: 500px;
+}
+ form{
+    background-color:#262626;
+    width: 236px;
+    padding: 15px;
+    border-radius: 15px;
+    position: relative;
+    float: left;
+    top:0;
+    margin-left:-12px;
+    transition: all 1s;
+}
+
+.form-div:before,.form-div:after {
+            content: '';
+            position: absolute;
+            border-radius: 15px;
+            top: -2px;
+            left: -2px;
+            background: linear-gradient(45deg,#fb0094,#0000ff,#00ff00,#ffff00,#fb0094,#0000ff,#00ff00);
+            background-size: 400%;
+            width: calc(100% + 4px);
+            height: calc(100% + 4px);
+            z-index: -1;
+            animation: animate 5s linear infinite;
+        }
+        .form-div:after{
+            filter: blur(10px);
+        }
+        @keyframes animate
+        {
+            0%
+            {
+                background-position: 0 0;
+            }
+            
+            50%
+            {
+                background-position:400% 0 ;
+            }
+            
+            100%
+            {
+                background-position: 0 0 ;
+            }
+
+        }
+
+.form-div h2{
+    text-align: center;
+    color: white;
+    font-family: "Segoe UI Light";
+}
+.form-div input[type='text'],input[type='email']{
+    padding: 15px;
+    font-size: 18px;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    border-bottom: 2px solid lightseagreen;
+    width: 200px;
+}
+textarea{
+    background-color: lightgrey;
+    outline: none;
+    border: 1px solid lightseagreen;
+    border-radius: 15px;
+}
+.main-contact input[type='text']:focus,
+.main-contact input[type='email']:focus{
+    border-bottom: 3px solid #00aeef;
+}
+::placeholder{
+    color: lightgray;
+}
+#submit{
+    background-color: lightseagreen;
+    padding:10px;
+    width: 200px;
+    margin:15px;
+    border: none;
+    outline:none;
+    border-radius: 10px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+#submit:hover{
+    background-color: #00aeef;
+    box-shadow: 0 0 10px 2px white;
+}
+

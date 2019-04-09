@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bootstrap/css/font-awesome.min.css">
+    <link rel="stylesheet" href="animate_css/animate.css">
+    <style>
+        h1{
+            text-align: center;
+        }
+        .image{
+            width: 300px;
+            display: inline-block;
+            text-align: center;
+            padding: 15px;
+            margin: 5px;
+            border-radius: 15px;
+            transition: all 0.5s;
+            box-shadow: 0 0 10px 4px black;
+        }
+        .image:hover{
+            box-shadow: 0 0 20px 10px red;
+        }
+        .image img{
+            width: inherit;
+            height: 200px;
+            border-radius: 15px;
+            transition: all 0.5s;
+        }
+        .desc{
+            padding: 10px;
+        }
+        #trans1:hover{
+            transform: scale(1.08,1.08);
+        }
+        #trans2:hover{
+            transform: translate(-12px,-12px);
+        }
+        #trans3:hover{
+            transform: scale(0.8,0.8);
+        }
+        #trans4:hover{
+            transform: rotate(-20deg) scale(1.1,1.1);
+        }
+        #trans5:hover{
+            transform: perspective(400px) rotateX(30deg);
+        }
+        #trans6:hover{
+            transform: perspective(400px) rotateY(-30deg);
+        }
+        #trans7:hover{
+            transform: perspective(400px) rotateY(30deg);
+        }
+        #trans8:hover{
+            transform: perspective(400px) rotateX(-30deg);
+        }
+        #trans9:hover{
+            transform: rotate3d(1,1,1,-45deg);
+        }
+        #trans10:hover{
+            transform: rotate3d(2,-1,-1,-0.2turn);
+        }
+        #trans11:hover{
+            transform: rotate3d(0,1,0.5,3.142rad);
+        }
+        #trans12:hover{
+            transform: rotateY(180deg);
+        }
+    </style>
+</head>
+<body>
+
+
+    <h1>Image Gallery</h1>
+
+    <div class="image bounce">
+        <img src="img/image4.jpeg" width="600" height="400" id="trans1">
+        <div class="desc">Image 1</div>
+    </div>
+
+    <div class="image">
+        <img src="img/image6.jpeg" width="600" height="400" id="trans2">
+        <div class="desc">Image 2</div>
+    </div>
+
+    <div class="image">
+        <img src="img/image5.jpeg" width="600" height="400" id="trans3">
+        <div class="desc">Image 3</div>
+    </div>
+
+    <div class="image">
+        <img src="img/image4.jpeg" width="600" height="400" id="trans4">
+        <div class="desc">Image 4</div>
+    </div>
+
+    <div class="image">
+        <img src="img/image6.jpeg" width="600" height="400" id="trans5">
+        <div class="desc">Image 5</div>
+    </div>
+
+    <div class="image">
+        <img src="img/image5.jpeg" width="600" height="400" id="trans6">
+        <div class="desc">Image 6</div>
+    </div>
+
+    <div class="image">
+        <img src="img/image6.jpeg" width="600" height="400" id="trans7">
+        <div class="desc">Image 7</div>
+    </div>
+
+    <div class="image">
+        <img src="img/image4.jpeg" width="600" height="400" id="trans8">
+        <div class="desc">Image 8</div>
+    </div>
+
+    <div class="image">
+        <img src="img/image6.jpeg" width="600" height="400" id="trans9">
+        <div class="desc">Image 9</div>
+    </div>
+
+    <div class="image">
+        <img src="img/image5.jpeg" width="600" height="400" id="trans10">
+        <div class="desc">Image 10</div>
+    </div>
+
+    <div class="image">
+        <img src="img/image6.jpeg" width="600" height="400" id="trans11">
+        <div class="desc">Image 11</div>
+    </div>
+
+    <div class="image">
+        <img src="img/image3.jpeg" width="600" height="400" id="trans12">
+        <div class="desc">Image 12</div>
+    </div>
+
+
+</body>
+</html>

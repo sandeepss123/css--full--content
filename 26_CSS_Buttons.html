@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Buttons</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bootstrap/css/font-awesome.min.css">
+    <style>
+        body{
+            font-family: "Comic Sans MS", sans-serif;
+        }
+        .btn{
+            background-color: purple;
+            color: white;
+            text-decoration: none;
+            border: none;
+            font-family: Arial, sans-serif;
+            padding: 14px 55px;
+            font-size: 18px;
+        }
+        .btn-outline{
+            background-color: white;
+            color: purple;
+            text-decoration: none;
+            border: 1px solid purple;
+            font-family: Arial, sans-serif;
+            padding: 14px 55px;
+            font-size: 18px;
+        }
+        .bs-btn{
+            color: white;
+            border: 5px solid white;
+            font-family: Arial, sans-serif;
+            padding: 14px 55px;
+            font-size: 18px;
+            box-shadow: 0 0 5px gray;
+            border-radius: 50px;
+        }
+        .primary{background-color: #4285f4}
+        .secondary{background-color: #aa66cc}
+        .success{background-color: #00c851}
+        .warning{background-color: #ffbb33}
+        .danger{background-color: #ff3547}
+
+        .bs-btn-outline{
+            background-color: white;
+            color: white;
+            border: 5px solid white;
+            font-family: Arial, sans-serif;
+            padding: 14px 55px;
+            font-size: 18px;
+            box-shadow: 0 0 5px gray;
+            border-radius: 50px;
+        }
+        .outline-primary{color: #4285f4;border-color: #4285f4}
+        .outline-secondary{color: #aa66cc;border-color: #aa66cc}
+        .outline-success{color: #00c851;border-color: #00c851}
+        .outline-warning{color: #ffbb33;border-color: #ffbb33}
+        .outline-danger{color: #ff3547;border-color: #ff3547}
+    </style>
+</head>
+<body>
+
+
+<!-- Simple Buttons -->
+<h2>Simple Buttons</h2>
+<div>
+    <a href="#" class="btn">Link</a>
+    <button class="btn">Button</button>
+    <input class="btn" type="button" value="Input">
+</div>
+
+
+<!-- Simple Outline Buttons -->
+<h2>Simple Outline Buttons</h2>
+<div>
+    <a href="#" class="btn-outline">Link</a>
+    <button class="btn-outline">Button</button>
+    <input class="btn-outline" type="button" value="Input">
+</div>
+
+<!-- Bootstrap Buttons -->
+<h2>Bootstrap Buttons</h2>
+<div>
+    <button class="bs-btn primary">Primary</button>
+    <button class="bs-btn secondary">Secondary</button>
+    <button class="bs-btn success">Success</button>
+    <button class="bs-btn warning">Warning</button>
+    <button class="bs-btn danger">Danger</button>
+</div>
+
+<!-- Bootstrap Outline Buttons -->
+<h2>Bootstrap Outline Buttons</h2>
+<div>
+    <button class="bs-btn-outline outline-primary">Primary</button>
+    <button class="bs-btn-outline outline-secondary">Secondary</button>
+    <button class="bs-btn-outline outline-success">Success</button>
+    <button class="bs-btn-outline outline-warning">Warning</button>
+    <button class="bs-btn-outline outline-danger">Danger</button>
+</div>
+
+</body>
+</html>

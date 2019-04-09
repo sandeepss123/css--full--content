@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css 3D transformations</title>
+    <style>
+        body{
+            font-family: "Comic Sans MS",sans-serif;
+        }
+        section{
+            background-color: orangered;
+            padding: 15px;
+            margin: 10px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 0 10px 5px black;
+        }
+        article{
+            background-color: #00aeef;
+            padding: 10px;
+            width: 250px;
+            display: inline-block;
+            margin: 10px;
+            box-shadow: 0 0 10px 4px black;
+            border-radius: 15px;
+            transition: all 0.5s;
+        }
+        .trans-1:hover{
+            transform: translateY(-10px);
+        }
+        .trans-2:hover{
+            transform: scale(1.10,1.10);
+        }
+        .trans-3:hover{
+            transform: scale(0.7,0.7);
+        }
+        .trans-4:hover{
+            transform: rotate(-20deg) scale(1.1,1.1);
+        }
+        .trans-5:hover{
+            transform: perspective(400px)rotateX(20deg);
+        }
+        .trans-6:hover{
+            transform: perspective(400px)rotateX(-20deg);
+        }
+        .trans-7:hover{
+            transform: perspective(400px)rotateY(20deg);
+        }
+        .trans-8:hover{
+            transform: perspective(400px)rotateY(-20deg);
+        }
+        .trans-9:hover{
+            transform: ;
+        }
+    </style>
+</head>
+<body>
+    <h2>transformation 1</h2>
+<section>
+    <article class="trans-1">
+        <h3>Ui Development</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, at dolor eveniet excepturi fugiat inventore, iusto magnam maiores nam nulla praesentium provident quasi quod recusandae, reiciendis sapiente sint! Culpa illo minus natus neque nihil sapiente sed sequi sunt unde voluptates! Ipsum, laboriosam minima natus nemo nesciunt nisi omnis recusandae reiciendis.</p>
+    </article>
+    <article class="trans-1">
+        <h3>Java training</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, at dolor eveniet excepturi fugiat inventore, iusto magnam maiores nam nulla praesentium provident quasi quod recusandae, reiciendis sapiente sint! Culpa illo minus natus neque nihil sapiente sed sequi sunt unde voluptates! Ipsum, laboriosam minima natus nemo nesciunt nisi omnis recusandae reiciendis.</p>
+    </article>
+    <article class="trans-1">
+        <h3>Mean stack</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, at dolor eveniet excepturi fugiat inventore, iusto magnam maiores nam nulla praesentium provident quasi quod recusandae, reiciendis sapiente sint! Culpa illo minus natus neque nihil sapiente sed sequi sunt unde voluptates! Ipsum, laboriosam minima natus nemo nesciunt nisi omnis recusandae reiciendis.</p>
+    </article>
+</section>
+
+    <h2>transformation 2</h2>
+    <section>
+        <article class="trans-2">
+            <h3>Ui Development</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, at dolor eveniet excepturi fugiat inventore, iusto magnam maiores nam nulla praesentium provident quasi quod recusandae, reiciendis sapiente sint! Culpa illo minus natus neque nihil sapiente sed sequi sunt unde voluptates! Ipsum, laboriosam minima natus nemo nesciunt nisi omnis recusandae reiciendis.</p>
+        </article>
+        <article class="trans-2">
+            <h3>Java training</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, at dolor eveniet excepturi fugiat inventore, iusto magnam maiores nam nulla praesentium provident quasi quod recusandae, reiciendis sapiente sint! Culpa illo minus natus neque nihil sapiente sed sequi sunt unde voluptates! Ipsum, laboriosam minima natus nemo nesciunt nisi omnis recusandae reiciendis.</p>
+        </article>
+        <article class="trans-2">
+            <h3>Mean stack</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, at dolor eveniet excepturi fugiat inventore, iusto magnam maiores nam nulla praesentium provident quasi quod recusandae, reiciendis sapiente sint! Culpa illo minus natus neque nihil sapiente sed sequi sunt unde voluptates! Ipsum, laboriosam minima natus nemo nesciunt nisi omnis recusandae reiciendis.</p>
+        </article>
+    </section>
+
+    <h2>transformation 3</h2>
+    <section>
+        <article class="trans-3">
+            <h3>Ui Development</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, at dolor eveniet excepturi fugiat inventore, iusto magnam maiores nam nulla praesentium provident quasi quod recusandae, reiciendis sapiente sint! Culpa illo minus natus neque nihil sapiente sed sequi sunt unde voluptates! Ipsum, laboriosam minima natus nemo nesciunt nisi omnis recusandae reiciendis.</p>
+        </article>
+        <article class="trans-3">
+            <h3>Java training</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, at dolor eveniet excepturi fugiat inventore, iusto magnam maiores nam nulla praesentium provident quasi quod recusandae, reiciendis sapiente sint! Culpa illo minus natus neque nihil sapiente sed sequi sunt unde voluptates! Ipsum, laboriosam minima natus nemo nesciunt nisi omnis recusandae reiciendis.</p>
+        </article>
+        <article class="trans-3">
+            <h3>Mean stack</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, at dolor eveniet excepturi fugiat inventore, iusto magnam maiores nam nulla praesentium provident quasi quod recusandae, reiciendis sapiente sint! Culpa illo minus natus neque nihil sapiente sed sequi sunt unde voluptates! Ipsum, laboriosam minima natus nemo nesciunt nisi omnis recusandae reiciendis.</p>
+        </article>
+    </section>
+
+    <h2>transformation 4</h2>
+    <section>
+        <article class="trans-4">
+            <h3>Ui Development</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, at dolor eveniet excepturi fugiat inventore, iusto magnam maiores nam nulla praesentium provident quasi quod recusandae, reiciendis sapiente sint! Culpa illo minus natus neque nihil sapiente sed sequi sunt unde voluptates! Ipsum, laboriosam minima natus nemo nesciunt nisi omnis recusandae reiciendis.</p>
+        </article>
+        <article class="trans-4">
+            <h3>Java training</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, at dolor eveniet excepturi fugiat inventore, iusto magnam maiores nam nulla praesentium provident quasi quod recusandae, reiciendis sapiente sint! Culpa illo minus natus neque nihil sapiente sed sequi sunt unde voluptates! Ipsum, laboriosam minima natus nemo nesciunt nisi omnis recusandae reiciendis.</p>
+        </article>
+        <article class="trans-4">
+            <h3>Mean stack</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, at dolor eveniet excepturi fugiat inventore, iusto magnam maiores nam nulla praesentium provident quasi quod recusandae, reiciendis sapiente sint! Culpa illo minus natus neque nihil sapiente sed sequi sunt unde voluptates! Ipsum, laboriosam minima natus nemo nesciunt nisi omnis recusandae reiciendis.</p>
+        </article>
+    </section>
+
+
+    <h2>transformation 5</h2>
+    <section>
+        <article class="trans-5">
+            <h3>Ui Development</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, at dolor eveniet excepturi fugiat inventore, iusto magnam maiores nam nulla praesentium provident quasi quod recusandae, reiciendis sapiente sint! Culpa illo minus natus neque nihil sapiente sed sequi sunt unde voluptates! Ipsum, laboriosam minima natus nemo nesciunt nisi omnis recusandae reiciendis.</p>
+        </article>
+        <article class="trans-5">
+            <h3>Java training</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, at dolor eveniet excepturi fugiat inventore, iusto magnam maiores nam nulla praesentium provident quasi quod recusandae, reiciendis sapiente sint! Culpa illo minus natus neque nihil sapiente sed sequi sunt unde voluptates! Ipsum, laboriosam minima natus nemo nesciunt nisi omnis recusandae reiciendis.</p>
+        </article>
+        <article class="trans-5">
+            <h3>Mean stack</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, at dolor eveniet excepturi fugiat inventore, iusto magnam maiores nam nulla praesentium provident quasi quod recusandae, reiciendis sapiente sint! Culpa illo minus natus neque nihil sapiente sed sequi sunt unde voluptates! Ipsum, laboriosam minima natus nemo nesciunt nisi omnis recusandae reiciendis.</p>
+        </article>
+    </section>
+
+    <h2>transformation 6</h2>
+    <section>
+        <article class="trans-6">
+            <h3>Ui Development</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, at dolor eveniet excepturi fugiat inventore, iusto magnam maiores nam nulla praesentium provident quasi quod recusandae, reiciendis sapiente sint! Culpa illo minus natus neque nihil sapiente sed sequi sunt unde voluptates! Ipsum, laboriosam minima natus nemo nesciunt nisi omnis recusandae reiciendis.</p>
+        </article>
+        <article class="trans-6">
+            <h3>Java training</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, at dolor eveniet excepturi fugiat inventore, iusto magnam maiores nam nulla praesentium provident quasi quod recusandae, reiciendis sapiente sint! Culpa illo minus natus neque nihil sapiente sed sequi sunt unde voluptates! Ipsum, laboriosam minima natus nemo nesciunt nisi omnis recusandae reiciendis.</p>
+        </article>
+        <article class="trans-6">
+            <h3>Mean stack</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, at dolor eveniet excepturi fugiat inventore, iusto magnam maiores nam nulla praesentium provident quasi quod recusandae, reiciendis sapiente sint! Culpa illo minus natus neque nihil sapiente sed sequi sunt unde voluptates! Ipsum, laboriosam minima natus nemo nesciunt nisi omnis recusandae reiciendis.</p>
+        </article>
+    </section>
+
+    <h2>transformation 7</h2>
+    <section>
+        <article class="trans-7">
+            <h3>Ui Development</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, at dolor eveniet excepturi fugiat inventore, iusto magnam maiores nam nulla praesentium provident quasi quod recusandae, reiciendis sapiente sint! Culpa illo minus natus neque nihil sapiente sed sequi sunt unde voluptates! Ipsum, laboriosam minima natus nemo nesciunt nisi omnis recusandae reiciendis.</p>
+        </article>
+        <article class="trans-7">
+            <h3>Java training</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, at dolor eveniet excepturi fugiat inventore, iusto magnam maiores nam nulla praesentium provident quasi quod recusandae, reiciendis sapiente sint! Culpa illo minus natus neque nihil sapiente sed sequi sunt unde voluptates! Ipsum, laboriosam minima natus nemo nesciunt nisi omnis recusandae reiciendis.</p>
+        </article>
+        <article class="trans-7">
+            <h3>Mean stack</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, at dolor eveniet excepturi fugiat inventore, iusto magnam maiores nam nulla praesentium provident quasi quod recusandae, reiciendis sapiente sint! Culpa illo minus natus neque nihil sapiente sed sequi sunt unde voluptates! Ipsum, laboriosam minima natus nemo nesciunt nisi omnis recusandae reiciendis.</p>
+        </article>
+    </section>
+
+    <h2>transformation 8</h2>
+    <section>
+        <article class="trans-8">
+            <h3>Ui Development</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, at dolor eveniet excepturi fugiat inventore, iusto magnam maiores nam nulla praesentium provident quasi quod recusandae, reiciendis sapiente sint! Culpa illo minus natus neque nihil sapiente sed sequi sunt unde voluptates! Ipsum, laboriosam minima natus nemo nesciunt nisi omnis recusandae reiciendis.</p>
+        </article>
+        <article class="trans-8">
+            <h3>Java training</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, at dolor eveniet excepturi fugiat inventore, iusto magnam maiores nam nulla praesentium provident quasi quod recusandae, reiciendis sapiente sint! Culpa illo minus natus neque nihil sapiente sed sequi sunt unde voluptates! Ipsum, laboriosam minima natus nemo nesciunt nisi omnis recusandae reiciendis.</p>
+        </article>
+        <article class="trans-8">
+            <h3>Mean stack</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, at dolor eveniet excepturi fugiat inventore, iusto magnam maiores nam nulla praesentium provident quasi quod recusandae, reiciendis sapiente sint! Culpa illo minus natus neque nihil sapiente sed sequi sunt unde voluptates! Ipsum, laboriosam minima natus nemo nesciunt nisi omnis recusandae reiciendis.</p>
+        </article>
+    </section>
+
+    <h2>transformation 9</h2>
+    <section>
+        <article class="trans-9">
+            <h3>Ui Development</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, at dolor eveniet excepturi fugiat inventore, iusto magnam maiores nam nulla praesentium provident quasi quod recusandae, reiciendis sapiente sint! Culpa illo minus natus neque nihil sapiente sed sequi sunt unde voluptates! Ipsum, laboriosam minima natus nemo nesciunt nisi omnis recusandae reiciendis.</p>
+        </article>
+        <article class="trans-9">
+            <h3>Java training</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, at dolor eveniet excepturi fugiat inventore, iusto magnam maiores nam nulla praesentium provident quasi quod recusandae, reiciendis sapiente sint! Culpa illo minus natus neque nihil sapiente sed sequi sunt unde voluptates! Ipsum, laboriosam minima natus nemo nesciunt nisi omnis recusandae reiciendis.</p>
+        </article>
+        <article class="trans-9">
+            <h3>Mean stack</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, at dolor eveniet excepturi fugiat inventore, iusto magnam maiores nam nulla praesentium provident quasi quod recusandae, reiciendis sapiente sint! Culpa illo minus natus neque nihil sapiente sed sequi sunt unde voluptates! Ipsum, laboriosam minima natus nemo nesciunt nisi omnis recusandae reiciendis.</p>
+        </article>
+    </section>
+
+</body>
+</html>
